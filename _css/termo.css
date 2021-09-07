@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+main{
+    color: #d3d3d3;
+}
+
+
+main h1 {
+    text-align: center;
+    background-color: #252525;
+    padding: 3% 0;
+    color: #ffffff;
+}
+
+.container {
+    width: 60vw;
+}
+
+main b {
+    color: #ffffff;
+}

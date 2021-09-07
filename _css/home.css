@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+/* TUDO DO CARROSSEL */
+
+.carrossel {
+	width: 100vw;
+	height: 100vh;
+}
+
+main h1 {
+	background-color: #252525;
+	color: #ffffff;
+	padding: 1%;
+	text-align: center;
+	font-size: 5.5vh;
+}
+section#produto {
+	position: relative;
+	margin: 0%;
+}
+
+section#produto h1{
+	font-size: 3.5vh;
+}
+
+section#produto p{
+	color: #ffffff;
+	margin: 1% 12% -2%;
+	font-size: 3vh;
+	text-align: center;
+}
+
+
+a.loja {
+	margin: 2% 0%;
+	font-size: 4vh;
+	text-align: center;
+}
+
+section#orcamento p{
+	color: #ffffff;
+	margin: 1% 12% -2%;
+	text-align:left;
+	font-size: 3vh;
+}
+
+section#orcamento ul{
+	color: #ffffff;
+	margin: 1% 0% -2%;
+	position: relative;
+	text-align:left;
+	font-size: 3vh;
+}
+
+section#sobre{
+	color: #ffffff;
+}
+section#sobre p{
+	margin: 3% 10%;
+}

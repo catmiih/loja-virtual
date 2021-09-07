@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+main, hr {
+	color: #FFFFFF;
+	border-color: #FFFFFF; 
+	margin: 1%;
+	text-align: left;
+}
+
+hr {
+	margin-top: -0.5%;
+}
+
+h1 {
+    font-size: 3.5vh;
+}
+
+.check{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    vertical-align: middle;
+    width: auto; 
+
+    height: auto;
+    font-size: 3vh;
+    background-color: #E9E9E9;
+}
+
+.check:checked:after{
+
+    position: relative;
+    bottom: 0px;
+    left: 1px;
+    color: green;
+    content: "\2713"; /* check mark */
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  div.row {/*
+      position: relative;*/
+      text-align: left;
+      font-size: 2.5vh;
+      margin-left: 0%;
+  }
+
+  .con {
+    font-size: 2.8vh;
+    margin: 0 0 0 5vh;
+  }
+
+  .custom-control-label::before, 
+.custom-control-label::after {
+
+  position: relative;
+
+  margin-right: 150px;
+
+    top: 3vh;
+    left: -4vh;
+    width: 3vh;
+    height: 3vh;
+}
+  .form-contact-input {
+
+    padding: 1%;
+    width: 100%;
+    color: #292929;
+    font-size: 2.5vh;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 1vh;
+    height: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 2.5vh;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 1vh;
+    height: 250px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 3vh;
+    border-radius: 4px;
+    color: #fff;
+    height: auto;
+    opacity: .7;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #47da29;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #0d5007;
+    border-right: 1px solid #0d5007;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }

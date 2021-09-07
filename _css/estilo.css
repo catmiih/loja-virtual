@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=DM+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@font-face {
+	font-family: 'Hell';
+    src: url("../_font/Hellstand.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+button.navbar-toggler{
+	background-color: #252525;
+	box-shadow: 0px 0px 20px 2px #111111;
+	height: 10vh;
+	width: 5vh;
+}
+
+header {
+	height:auto;
+	font-family: 'DM Sans', sans-serif;
+}
+
+header img {
+	position: relative;
+}
+header a#logo {
+	margin: -3% -3% -2% 0;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 7vh;
+	font-family: 'Amatic SC', cursive;
+}
+
+nav#menu { 
+	height: auto;
+	padding: 3% 2% 2%;
+}
+
+#menu ul {
+	position:inherit ;
+	font-size: 2.5vh;
+	list-style: none;
+	float: right;
+	margin: 10% 0 1% 30%;
+	
+}
+nav#menu ul a{
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	width: 25vh;
+	height: 100%;
+	
+	margin: -1% 5px ;
+}
+
+body {
+	font-family: 'DM Sans', sans-serif;
+	text-align: justify;
+	background-color: #3D3D3D;
+}
+
+footer {
+	color: #ffffff;
+	padding: 5%;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	background-color: #272727;
+}
+footer h1 {
+	font-family: 'Hell';
+	text-align: right;
+	text-align: center;
+	font-size: 3.5vh;
+	
+}
+footer h3 {
+	margin-top: 1%;
+	font-size: 3vh;
+}
+footer a.redes {
+	margin: 1% 0.5%;
+	text-decoration: none;
+}
+
+footer img {
+	height: 5vh;
+}

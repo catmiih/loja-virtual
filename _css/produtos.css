@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+main, hr {
+	color: #FFFFFF;
+	border-color: #FFFFFF; 
+	margin: 1%;
+	text-align: center;
+}
+
+hr {
+	margin-top: -0.5%;
+}
+
+.card {
+	color: #262626;
+	margin: 3% 0;
+}
