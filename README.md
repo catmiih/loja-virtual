@@ -11,6 +11,6 @@ Um modelo de loja virtual utilizando HTML, CSS, JS, Bootstrap e PHP, utilizando 
 <br>
 
 <h2>Termos de contrato personalizado </h2>
-<p> ATermo de contrato com todos os termos de um orçamento. </p>
+<p> Termo de contrato com todos os termos de um orçamento. </p>
 <img src='https://i.imgur.com/lbjXadG.png'>
 <br>
